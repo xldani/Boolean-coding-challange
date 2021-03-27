@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+width: 50vw;
+background-color: rgba(0, 0, 0, 0.5);
+margin: auto;
+margin-top: 100px;
+border-radius: 5px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header{
+  width: 100%
+}
+
+header .container-header #container-logo {
+width : 25%;
+margin-left: 50%;
+padding-top: 30px;
+transform: translate(-50%);
+}
+
+
+.text-logo{
+  width: 60%;
+  margin: auto;
+font-size : 40px;
+color : lime;
+padding: 10px;
+}
+
+nav {
+    padding : 20px;
+}
+
+
+.container-button{
+  width:80%;
+  height: 40px;
+  margin:auto;
+  background-color: lime;
+
+}
+
+.button-group {
+float: left;
+margin-left: 204px;
+margin-top: 8px;
+
+}
+
+.button{
+  font-size: 15px;
+}
+
+.stato-carica-bar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container-main {
+  padding: 30px;
+}
+
+.nome-scooter{
+  font-size: 20px;
+  color: white;
+}
+
+.localizzazione, .stato-carica-text{
+  font-size: 20px;
+  color: white;
+}
+
+.stato-carica-bar {
+border-radius: 2px;
+}
+
+.stato-carica-bar .percentuale {
+float: left;
+margin-left:50%;
+transform: translate(-50%);
+}
+
+#greenbar{
+  background-color: lime;
+  width:50%;
+}
+
+#redbar{
+  background-color: red;
+  width:15%
+}
+
+#yellowbar{
+  background-color: yellow;
+  width:35%;
+}
+
+footer{
+  width:11vw;
+  margin: auto;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 20px;
+
+
+}
